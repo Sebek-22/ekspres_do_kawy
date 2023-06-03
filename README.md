@@ -27,10 +27,14 @@ Krok 2: Użytkownik wybiera opcję "Espresso".
 Krok 3: Oczekiwane jest, że ekspres do kawy zaparzy espresso.
 
 3. Wykorzystane narzędzia i biblioteki
+
 pytest: Biblioteka do uruchamiania testów jednostkowych, integracyjnych i akceptacyjnych w języku Python.
+
 pytest-bdd: Rozszerzenie dla pytest, umożliwiające pisanie testów w stylu BDD (Behavior-Driven Development).
+
 4. Ewentualne problemy i ich rozwiązania
 Problem: Brak modułu pytest lub pytest-bdd.
 Rozwiązanie: Upewnij się, że masz zainstalowane biblioteki pytest i pytest-bdd. Możesz zainstalować je za pomocą narzędzia pip: pip install pytest pytest-bdd.
+
 Problem: Testy nie przechodzą lub nie działają zgodnie z oczekiwaniami.
 Rozwiązanie: Sprawdź, czy implementacja kodu aplikacji jest zgodna z testami. Upewnij się, że metody są poprawnie zaimplementowane i zwracają oczekiwane wyniki lub wykonują oczekiwane akcje. Sprawdź również, czy testy pokrywają różne przypadki i scenariusze.
